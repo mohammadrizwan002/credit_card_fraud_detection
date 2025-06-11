@@ -1,31 +1,54 @@
-Credit Card Fraud Detection using Machine Learning
+💳 Credit Card Fraud Detection using Machine Learning(This is the project for AI&ML Internship)
 
 🔍 Objective
-Build a machine learning model to detect fraudulent credit card transactions using supervised and unsupervised algorithms.
+Build a machine learning model to detect fraudulent credit card transactions using both supervised and unsupervised algorithms, and provide a user-friendly interface through a web app.
 
-🧠 Algorithms Used
-- Isolation Forest
-- Local Outlier Factor
-- XGBoost Classifier
+---
 
 📊 Dataset
 - Source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-- Features are PCA-transformed, with "Class" as the target (1 = Fraud, 0 = Normal)
+- Total transactions: 284,807
+- Fraudulent cases: 492
+- Features: 30 numerical features (`V1` to `V28`, `Amount`, `Time`)
+- Target column: `Class` (0 = Normal, 1 = Fraud)
+
+---
+
+🧠 Algorithms Used
+- Isolation Forest (Unsupervised)
+- Local Outlier Factor (Unsupervised)
+- XGBoost Classifier (Supervised)
+
+---
 
 🧰 Tools & Libraries
-- Python, Pandas, NumPy
+- Python
+- Pandas, NumPy
 - scikit-learn, XGBoost
 - Matplotlib, Seaborn
 - Google Colab
+- Streamlit (for web app)
 
-⚙️ How to Run
-1. Upload the `creditcard.csv` file into the `data/` folder.
-2. Open `fraud_detection.ipynb` in Google Colab.
-3. Run all cells to execute preprocessing, training, evaluation, and model saving.
+---
 
-🧪 Output
-- High precision & recall on fraud detection
-- Visual confusion matrix
-- Trained model saved as `xgboost_model.pkl`
+⚙️ How to Run the Project
 
+🔬 Model Training
+1. Download `creditcard.csv` from Kaggle.
+2. Place it inside the `data/` folder (locally only).
+3. Open `fraud_detection.ipynb` using Google Colab.
+4. Run all cells to:
+   - Preprocess the data
+   - Train using Isolation Forest, LOF, and XGBoost
+   - Evaluate models
+   - Save trained model as `xgboost_model.pkl` inside the `model/` folder
 
+🌐 Web App (Streamlit)
+1. Open terminal or command prompt.
+2. Navigate to the `streamlit_app` directory:
+   ```bash
+   cd streamlit_app
+
+🧑‍💻 Author
+V Mohammad Rizwan 
+AIML Internship Project – June 2025 ✅
