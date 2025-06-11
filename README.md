@@ -1,4 +1,4 @@
-💳 Credit Card Fraud Detection using Machine Learning (This is the project for AI&ML Internship)
+💳 Credit Card Fraud Detection using Machine Learning (This is the project for AI&ML Internship-ELEVATE LABS JUNE 2025)
 
 🔍 Objective
 Build a machine learning model to detect fraudulent credit card transactions using both supervised and unsupervised algorithms, and provide a user-friendly interface through a web app.
