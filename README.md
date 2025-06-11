@@ -45,12 +45,12 @@ Build a machine learning model to detect fraudulent credit card transactions usi
 
 🌐 Web App (Streamlit)
 1. Open terminal or command prompt.
-2. Navigate to the `streamlit_app` directory:
-3.Run the Streamlit app: streamlit run app.py
-4.The app will open in your browser (usually at http://localhost:8501)
+2. Navigate to the `streamlit_app` directory
+3.Run the Streamlit app: streamlit run app.py,
+4.The app will open in your browser (usually at http://localhost:8501).
 
 5.Enter 30 feature values to check if the transaction is fraudulent
-   cd streamlit_app
+   cd streamlit_app.
 
 🧑‍💻 Author
 V Mohammad Rizwan 
